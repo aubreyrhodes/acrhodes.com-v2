@@ -7,18 +7,25 @@
 $header-font: 'Open Sans', sans-serif;
 $body-font: 'Gentium Basic', serif;
 
-.header {
-  @include outer-container;
-
-  h1{
-    font-family: $header-font;
-    @include padding(1.5em 0 0 0);
-  }
-
+body {
   font-family: $body-font;
 
-  p{
-    max-width: 500px;
-    @include padding(2em 0 2em 0);
+  .header {
+    @include outer-container;
+
+    h1{
+      font-family: $header-font;
+      @include padding(1.5em 0 0 0);
+    }
+
+    p{
+      max-width: 500px;
+      @include padding(2em 0 2em 0);
+    }
   }
+
+  .body{
+      @include outer-container;
+      @include padding(2em 0 2em 0);
+   }
 }

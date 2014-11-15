@@ -8,3 +8,14 @@ set :images_dir, 'images'
 
 configure :build do
 end
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+
+  blog.layout = "blog_layout"
+  blog.tag_template = "tag.html"
+  blog.calendar_template = "calendar.html"
+  blog.paginate = true
+end
+
+page "/feed.xml", :layout => false

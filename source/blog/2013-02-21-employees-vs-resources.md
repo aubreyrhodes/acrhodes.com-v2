@@ -1,0 +1,11 @@
+---
+title: Employees Vs. Resources
+---
+
+After the merger of [Big Nerd Ranch](http://www.bignerdranch.com/index) and Highgroove Studios in November of last year, there has been a lot of soul-searching going on in the company as we work to develop and define our company's culture. One recent discussion has revolved around the idea of treating employees as resources. We've had good arguments for both sides internally so far, but I thought I would explain my thoughts.
+
+First off, I can totally see the merit of wanting employees to be an interchangeable commodity. In an ideal case, one employee could be swapped out for another with no noticeable change. In my time at Highgroove and now at Big Nerd Ranch, documenting your work, getting others involved, and making sure we are handling the 'hit by a bus' situation has always been a big part of our process. I fee like this is in the best interest of our clients and makes all of our work better.
+
+That being said, software development is not done on an assembly line. The projects we take on are not uniform in their requirements. We are not solely hiring developers fresh from the same computer science program. It is to our advantage to understand that each of us in the company have some unique edge that may be better suited for a specific problem. Someone will be better at handling a problematic client, someone will be able to dive into a legacy project and find clarity more quickly than other developers, someone will have worked on a similar big data problem and be able to knock the project out of the park.
+
+While I don't think we should sit around and expect our egos to be stroked for the special snowflakes that we are, I do think that companies that treat their pool of talent as uniform resources rather than a diverse collection of expertise and experience are missing out on a valuable resource. Finding ways to get the right person on the right project while not making them irreplaceable is an imperative for companies whose main advantage is having the right people on the bus.

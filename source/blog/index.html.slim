@@ -1,0 +1,22 @@
+---
+pageable: true
+per_page: 10
+layout: blog_layout
+title: Blog
+---
+- if paginate
+  p="Page #{ page_number } of #{ num_pages }"
+
+  - if prev_page
+    p== link_to 'Previous page', prev_page
+
+ul.unstyled
+  - page_articles.each do |article|
+    li
+      h3
+        ==' link_to article.title, article.url
+      p== article.summary
+
+- if paginate
+  - if next_page
+    p==link_to 'Next page', next_page
