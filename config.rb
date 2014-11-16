@@ -19,3 +19,7 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", :layout => false
+
+activate :s3_sync do |config|
+  config.bucket = "acrhodes.com"
+end
